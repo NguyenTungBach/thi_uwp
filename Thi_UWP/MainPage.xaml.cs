@@ -65,6 +65,14 @@ namespace Thi_UWP
             {
                 List<Contact> listContact = Server.DataInitialization.ListTransactionByName(searchName.Text);
                 ListDataGridCreate.ItemsSource = listContact;
+                if(listContact == null)
+                {
+                    ContentDialog contentDialog = new ContentDialog();
+                    contentDialog.Title = "Acction success";
+                    contentDialog.Content = "Contact not found";
+                    contentDialog.CloseButtonText = "Oke";
+                    await contentDialog.ShowAsync();
+                }
             }
             catch
             {
