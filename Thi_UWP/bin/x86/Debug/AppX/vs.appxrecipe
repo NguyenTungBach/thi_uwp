@@ -30,13 +30,13 @@
     <AppXManifest Include="F:\HocWeb\Universal app\BT_universal_app\Thi_UWP\Thi_UWP\Thi_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-19T13:10:34.384</Modified>
+      <Modified>2022-02-19T13:23:28.185</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\HocWeb\Universal app\BT_universal_app\Thi_UWP\Thi_UWP\Thi_UWP\bin\x86\Debug\Thi_UWP.exe">
       <PackagePath>entrypoint\Thi_UWP.exe</PackagePath>
-      <Modified>2022-02-19T13:10:33.628</Modified>
+      <Modified>2022-02-19T13:23:27.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\z\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\HocWeb\Universal app\BT_universal_app\Thi_UWP\Thi_UWP\Thi_UWP\bin\x86\Debug\Core\Thi_UWP.exe">
       <PackagePath>Thi_UWP.exe</PackagePath>
-      <Modified>2022-02-19T13:10:34.381</Modified>
+      <Modified>2022-02-19T13:23:28.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\z\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>

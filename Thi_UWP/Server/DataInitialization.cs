@@ -17,7 +17,7 @@ namespace Thi_UWP.Server
             string sqlPersonalContact = @"CREATE TABLE IF NOT EXISTS
             Contact (Id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
             Name VARCHAR( 140 ),
-            Phone VARCHAR( 140 )
+            Phone VARCHAR( 140 ) UNIQUE
             );";
             using (var statement = cnn.Prepare(sqlPersonalContact))
             {
